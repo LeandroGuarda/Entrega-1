@@ -1,8 +1,4 @@
-html{
 
-    
-
-}
 
 *{
     margin: 0;
@@ -11,11 +7,13 @@ html{
     font-size: medium;
 }
 
-header{ 
+header{
 padding: 10px;
 margin-bottom: 5px;
 
 }
+
+/** PORTADA **/
 
 .imagen-portada{
     width: 100%;
@@ -23,31 +21,9 @@ margin-bottom: 5px;
    height: 400px;
 }
 
-.fotosGaleria{
+    
+/** BARRA DE NAVEGACION **/
 
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
-    
-}
-
-.divGaleria{
-    
-    display: block;
-    width: 25%;
-    height: auto;
-}
-    
-.divGaleria,img{
-    height: auto;
-    width: auto;
-    border-radius: 5px;
-}
-    
-
-
- 
 nav{
     display: flex;
     justify-content: space-around;/*/tambien pueden ir los nav. a la derecha/*/
@@ -56,13 +32,7 @@ nav{
     max-width: 100%;
 }
 .cont-nav{
-    
- 
     text-align: center;
-    
-    
-   
-    
 }
 
 h1{
@@ -74,14 +44,14 @@ h1{
 }
 
 nav > a{
-   
+
 
     font-size: larger;
     text-decoration: none;
     font-weight: bolder;
     text-align: center;
     color: antiquewhite;
- 
+
 }
 
 .container{
@@ -103,6 +73,33 @@ img{                    /**imagen del index**/
     padding: 10px;
 
 }
+
+/**  imagenes de galeria  **/
+
+
+
+.main{
+    max-width: 100%;
+}
+.fotosGaleria{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+.divGaleria img{
+    
+    height: auto;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* PIE DE PAGINA */
 
 footer {
     background-color: #f2f2f2;
